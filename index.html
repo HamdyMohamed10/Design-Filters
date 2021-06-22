@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Application</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="static/js/bokeh.min.js?v=34492a651483e52ab93f122d922484233256bf44948e2fc265422ab409533866f6f8fe46c6e6e120eb72100deac48f64ad53bececef3b710aaa2347400aa35a8"></script>
+        <script type="text/javascript" src="static/js/bokeh-widgets.min.js?v=63055547e2b9c94e52e9372e9e2d7ffef99861d0af906982eb2fec0eb7f96409b305d13c5b0adf8389146ba1ab994a1a79f7573669c27f9b9e52033ab8f163e9"></script>
+        <script type="text/javascript" src="static/js/bokeh-tables.min.js?v=6338e59efcd5250dd6f683adeca22267d976417bfee27fd6847f1efe02c3040ec217495fbdf23c9ad255f8c876bcc5f04b7ef2f170c4ca404cc6a8d339322461"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="5b23559f-2bc3-42fe-89dd-0f4ca42d0fff" data-root-id="1307"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1512">
+          {}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('1512').textContent;
+                  var render_items = [{"root_ids":["1307"],"roots":{"1307":"5b23559f-2bc3-42fe-89dd-0f4ca42d0fff"},"token":"eyJzZXNzaW9uX2lkIjogImE3TTVOY0wxSW1uMU1zNEN0UElhdUJOTDluY3VUZWZQN2xmUnZXTzBubURaIiwgInNlc3Npb25fZXhwaXJ5IjogMTYyNDMzMzEwMSwgImhlYWRlcnMiOiB7Ikhvc3QiOiAibG9jYWxob3N0OjUwMDYiLCAiQ29ubmVjdGlvbiI6ICJrZWVwLWFsaXZlIiwgIlNlYy1DaC1VYSI6ICJcIiBOb3Q7QSBCcmFuZFwiO3Y9XCI5OVwiLCBcIkdvb2dsZSBDaHJvbWVcIjt2PVwiOTFcIiwgXCJDaHJvbWl1bVwiO3Y9XCI5MVwiIiwgIlNlYy1DaC1VYS1Nb2JpbGUiOiAiPzAiLCAiVXBncmFkZS1JbnNlY3VyZS1SZXF1ZXN0cyI6ICIxIiwgIlVzZXItQWdlbnQiOiAiTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NCkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzkxLjAuNDQ3Mi4xMDYgU2FmYXJpLzUzNy4zNiIsICJBY2NlcHQiOiAidGV4dC9odG1sLGFwcGxpY2F0aW9uL3hodG1sK3htbCxhcHBsaWNhdGlvbi94bWw7cT0wLjksaW1hZ2UvYXZpZixpbWFnZS93ZWJwLGltYWdlL2FwbmcsKi8qO3E9MC44LGFwcGxpY2F0aW9uL3NpZ25lZC1leGNoYW5nZTt2PWIzO3E9MC45IiwgIlNlYy1GZXRjaC1TaXRlIjogIm5vbmUiLCAiU2VjLUZldGNoLU1vZGUiOiAibmF2aWdhdGUiLCAiU2VjLUZldGNoLVVzZXIiOiAiPzEiLCAiU2VjLUZldGNoLURlc3QiOiAiZG9jdW1lbnQiLCAiQWNjZXB0LUVuY29kaW5nIjogImd6aXAsIGRlZmxhdGUsIGJyIiwgIkFjY2VwdC1MYW5ndWFnZSI6ICJlbi1FRyxlbjtxPTAuOSxhci1FRztxPTAuOCxhcjtxPTAuNyxlbi1VUztxPTAuNiIsICJJZi1Ob25lLU1hdGNoIjogIlwiZjM5MmVmMzllOGJjNGM0ZDdiZjY1MDgwNTIxZjJkZmQ3NzRmNmU0YlwiIn0sICJjb29raWVzIjoge319","use_for_title":true}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
